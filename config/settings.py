@@ -32,6 +32,10 @@ DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '127.0.0.1').split(',')
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://finance-backend-project-g1f2.onrender.com',
+]
+
 AUTH_USER_MODEL = 'users.CustomUser'
 # Application definition
 
