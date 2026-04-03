@@ -11,3 +11,5 @@ services:
         generateValue: true
       - key: ALLOWED_HOSTS
         value: .onrender.com
+      - key: PYTHON_VERSION
+        value: 3.11.0
