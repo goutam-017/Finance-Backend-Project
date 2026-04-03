@@ -319,7 +319,7 @@ Response 200:
 
 ---
 
-## Quick Testing Order
+## Live Api end points Order
 
 ```
 1. Register user          →  POST  /api/auth/register/
@@ -330,34 +330,6 @@ Response 200:
 6. Create records         →  POST  /api/records/         → use admin access_token
 7. List & filter records  →  GET   /api/records/?type=income
 8. Dashboard summary      →  GET   /api/dashboard/summary/
-```
-
-## Live Api end points Order
-
-```
-Base URL:
-https://finance-backend-project-g1f2.onrender.com
-
-Endpoints:
-https://finance-backend-project-g1f2.onrender.com/api/auth/register/
-https://finance-backend-project-g1f2.onrender.com/api/auth/login/
-https://finance-backend-project-g1f2.onrender.com/api/auth/new_access_token/
-https://finance-backend-project-g1f2.onrender.com/api/auth/user_profile/
-https://finance-backend-project-g1f2.onrender.com/api/auth/users/<id>/
-
-https://finance-backend-project-g1f2.onrender.com/api/records/
-https://finance-backend-project-g1f2.onrender.com/api/records/<id>
-
-https://finance-backend-project-g1f2.onrender.com/api/dashboard/summary/
-```
-```
-{
-    "username":"admin",
-    "password":"admin@123"
-}
-
-this is a existing admin user in database.. login through this username and password
-
 ```
 
 ---
