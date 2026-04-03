@@ -16,7 +16,6 @@ def root(request):
             "users"             : "/api/auth/users/<id>/",
             "records"           : "/api/records/",
             "dashboard"         : "/api/dashboard/summary/",
-            "docs"              : "/api/docs/",
             "admin"             : "/admin/",
         }
     })
