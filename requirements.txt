@@ -4,3 +4,4 @@ djangorestframework-simplejwt
 django-filter
 python-dotenv
 django-cors-headers
+gunicorn
