@@ -1,0 +1,89 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ===========================
+# Virtual Environment
+# ===========================
+env/
+venv/
+ENV/
+.env
+.venv
+
+# ===========================
+# Django
+# ===========================
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# ===========================
+# IDE & Editors
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ===========================
+# Distribution / Packaging
+# ===========================
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+
+# ===========================
+# Testing
+# ===========================
+.coverage
+.tox/
+htmlcov/
+.pytest_cache/
+coverage.xml
+*.cover
+
+# ===========================
+# Migrations (optional)
+# ===========================
+# Uncomment below if you don't want to track migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# ===========================
+# Jupyter Notebook
+# ===========================
+.ipynb_checkpoints
+*.ipynb
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+Desktop.ini
